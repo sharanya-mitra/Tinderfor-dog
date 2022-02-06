@@ -52,7 +52,7 @@ p
 }
 .title-img
 {
-    width: 290px;
+    width: 300px;
     transform: rotate(25deg);
     position: absolute;
 }
@@ -119,4 +119,43 @@ h2
 #pricing {
     padding: 100px;
     text-align: center;
+}
+#cta
+{
+   background-color:  #ff4c68;
+   color: white;
+    padding: 7% 15% !important;
+    text-align: center;
+    
+}
+.cta_heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem !important;
+    line-height: 4rem !important;
+    text-align: center;
+    padding: auto;
+}
+#footer
+{
+    padding: 3% 15% !important;
+    text-align: center;
+
+}
+.footer_icon
+{
+    font-size: 2rem;
+    color:palevioletred;
+    margin-right: 1.5rem;
+    padding: 10px;
+}
+@media (max-width:1000px) {
+    #title
+    {
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
 }
